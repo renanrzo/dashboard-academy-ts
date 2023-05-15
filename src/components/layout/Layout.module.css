@@ -1,0 +1,23 @@
+.container {
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+    height: 175px;
+}
+
+.content {
+   padding: 1rem;
+   flex: 1;
+   justify-content: center;
+   overflow-y: auto;
+   height: 100%;
+   padding: 1rem;
+   box-sizing: border-box;
+}
+

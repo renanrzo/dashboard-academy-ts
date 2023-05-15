@@ -1,0 +1,36 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "teste@email.com",
+      "password": "teste@123"
+    }
+  ],
+  "informacoes": [
+    {
+      "id": 1,
+      "foto": "https://github.com/renanrzo.png",
+      "nome": "André Renan de Menezes Silva",
+      "cargo": "Desenvolvedor júnior",
+      "resumo": "COMEIA ACADEMY"
+    }
+  ],
+  "experiencias": [
+    {
+      "id": 1,
+      "titulo": "Escritório Pai e Filho Vieira",
+      "descricao": "Auxiliar de Contabilidade",
+      "tipo": "profissional",
+      "anoInicio": "2012",
+      "anoFim": "2023"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 2,
+      "link": "https://renanrzo.github.io/portfolio-so-escape-biela/",
+      "image": "https://images.unsplash.com/photo-1620988051748-81e0b01f37fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
+      "title": "Só escape Biela"
+    }
+  ]
+}
