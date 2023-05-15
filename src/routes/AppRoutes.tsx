@@ -33,8 +33,8 @@ const AppRoutes: React.FC = () => {
                 <Route path="/curriculo/experiencia/cadastrar" element={<CadastrarExperiencia />} />
                 <Route path="/curriculo/experiencia/atualizar" element={<CadastrarExperiencia />} />
                 <Route path="/curriculo/experiencia/listar" element={<ListaExperiencia />} />
-                <Route path="/portfolio/cadastrar" element={<CadastrarPortfolio />} />
-                <Route path="/portfolio/atualizar" element={<CadastrarPortfolio />} />
+                <Route path="/projeto/cadastrar" element={<CadastrarPortfolio />} />
+                <Route path="/projeto/atualizar" element={<CadastrarPortfolio />} />
                 <Route path="/portfolio/listar" element={<ListaPortfolio />} />
             </Routes>
         </Layout>

@@ -23,14 +23,22 @@
       "tipo": "profissional",
       "anoInicio": "2012",
       "anoFim": "2023"
+    },
+    {
+      "titulo": "Gestão de recursos humanos",
+      "descricao": "ok",
+      "tipo": "academico",
+      "anoInicio": 2020,
+      "anoFim": 2021,
+      "id": 2
     }
   ],
   "portfolio": [
     {
-      "id": 2,
-      "link": "https://renanrzo.github.io/portfolio-so-escape-biela/",
-      "image": "https://images.unsplash.com/photo-1620988051748-81e0b01f37fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
-      "title": "Só escape Biela"
+      "link": "https://github.com/renanrzo/JS_objetos",
+      "image": "https://picsum.photos/seed/picsum/200/300",
+      "title": "JS Objetos",
+      "id": 1
     }
   ]
 }
