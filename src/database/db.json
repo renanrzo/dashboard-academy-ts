@@ -15,24 +15,7 @@
       "resumo": "COMEIA ACADEMY"
     }
   ],
-  "experiencias": [
-    {
-      "id": 1,
-      "titulo": "Escritório Pai e Filho Vieira",
-      "descricao": "Auxiliar de Contabilidade",
-      "tipo": "profissional",
-      "anoInicio": "2012",
-      "anoFim": "2023"
-    },
-    {
-      "titulo": "Gestão de recursos humanos",
-      "descricao": "ok",
-      "tipo": "academico",
-      "anoInicio": 2020,
-      "anoFim": 2021,
-      "id": 2
-    }
-  ],
+  "experiencias": [],
   "portfolio": [
     {
       "link": "https://github.com/renanrzo/JS_objetos",
