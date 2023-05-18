@@ -23,6 +23,7 @@ const Input: React.FC<InputProps> = ({ label, name, type = "text", as, errors, t
                 {label}:
             </label>
             <Field
+                id={name}
                 name={name}
                 type={type}
                 as={as ? as : undefined}
