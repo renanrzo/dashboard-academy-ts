@@ -10,7 +10,7 @@ import Input from "../../components/forms/input/Input";
 import Button from "../../components/common/Button";
 import Title from "../../components/common/Title";
 
-import { LoginData, login as loginService } from "../../services/authService";
+import { User, login as loginService } from "../../services/authService";
 
 import { useAuth } from "../../contexts/AuthContext";
 
@@ -19,7 +19,7 @@ const Login: React.FC = () => {
     const navigate = useNavigate();
     const { login } = useAuth();
 
-    const initialValues: LoginData = {
+    const initialValues: User = {
         email: "",
         password: "",
     };
@@ -33,7 +33,7 @@ const Login: React.FC = () => {
             .required("Senha obrigatória"),
     });
 
-    const onSubmit = async (values: LoginData) => {
+    const onSubmit = async (values: User) => {
         try {
             const user = await loginService(values);
             login(user);
